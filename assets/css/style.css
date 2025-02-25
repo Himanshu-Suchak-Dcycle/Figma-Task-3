@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Mulish", serif;
+}
+
+.main-wrapper {
+  max-width: 1920px;
+  width: 100%;
+}
+
+nav {
+  margin: 56px 192px 0 191px;
+}
+nav .container-fluid .navbar-brand .logo {
+  font-size: 26px;
+  background-color: #458ff6;
+  padding: 5px 13px;
+  margin-right: 12px;
+}
+nav .container-fluid .navbar-brand .brand {
+  font-size: 24px;
+  color: #233348;
+}
+nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #1f1534;
+  opacity: 0.5;
+  font-size: 18px;
+  padding: 8px 10px;
+  transition: all 0.3s ease-in-out;
+}
+nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #458ff6;
+  opacity: 1;
+}
+nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
+  color: #1f1534;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.hero-section {
+  margin-left: 191px;
+  margin-right: 192px;
+}
+.hero-section .bg-element {
+  top: 63px;
+  left: -241px;
+}
+.hero-section .hero-content {
+  padding-top: 186px;
+  padding-right: 109px;
+}
+.hero-section .hero-content h1 {
+  font-size: 48px;
+  max-width: 427px;
+}
+.hero-section .hero-content p {
+  font-size: 21px;
+  color: #7d7987;
+  max-width: 445px;
+  margin-top: 25px;
+}
+.hero-section .hero-content .btn {
+  background-color: #458ff6;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+  padding: 15px 40px;
+  margin-top: 45px;
+}
+.hero-section .hero-content .btn:hover {
+  background-color: #2978e8;
+}
+
+.our-services {
+  margin-top: 192px;
+  margin-left: 191px;
+  margin-right: 192px;
+}
+.our-services .service-content {
+  max-width: 952px;
+}
+.our-services .service-content h2 {
+  font-size: 36px;
+}
+.our-services .service-content hr {
+  border: 2px solid black;
+  opacity: 1;
+  max-width: 56px;
+  border-radius: 5px;
+  margin-top: 26px;
+}
+.our-services .service-content p {
+  font-size: 18px;
+  color: #7d7987;
+  margin-top: 33px;
+}
+.our-services .card-container {
+  margin-top: 80px;
+}
+.our-services .card-container .row .col {
+  max-width: 350px;
+  width: 100%;
+}
+.our-services .card-container .row .col .card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+.our-services .card-container .row .col .card .icon-container {
+  padding: 54px 0 0 37px;
+}
+
+@media screen and (max-width: 1400px) {
+  nav {
+    margin: 36px 100px 0 100px;
+  }
+  .hero-section {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .hero-section .bg-element {
+    top: 30px;
+    left: -150px;
+  }
+  .hero-section .hero-content {
+    padding-top: 100px;
+    padding-right: 60px;
+  }
+  .hero-section .hero-content h1 {
+    font-size: 40px;
+  }
+  .hero-section .hero-content p {
+    font-size: 18px;
+  }
+  .hero-section .hero-content .btn {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  nav {
+    margin: 26px 50px 0 50px;
+  }
+  nav .nav-link {
+    font-size: 16px;
+  }
+  .hero-section {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .hero-section .bg-element {
+    top: 30px;
+    left: -100px;
+  }
+  .hero-section .hero-content {
+    padding-top: 50px;
+  }
+  .hero-section .hero-content h1 {
+    font-size: 36px;
+  }
+  .hero-section .hero-content .btn {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  nav {
+    margin: 0 20px 0 20px;
+  }
+  .hero-section {
+    width: 100%;
+    margin: 0;
+  }
+  .hero-section .bg-element {
+    top: 30px;
+    left: -50px;
+  }
+  .hero-section .hero-content {
+    padding: 50px 20px 0 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .hero-section .hero-content h1,
+  .hero-section .hero-content p {
+    max-width: 100%;
+    width: 520px;
+    text-align: center;
+  }
+  .hero-section .hero-background {
+    padding: 0 20px;
+  }
+}
