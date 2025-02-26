@@ -19,7 +19,7 @@
     data-bs-target="#navbarSupportedContent"
     data-bs-smooth-scroll="true"
   >
-    <div class="main-wrapper mx-auto overflow-hidden">
+    <div class="main-wrapper mx-auto">
       <nav
         id="navbarSupportedContent"
         class="navbar navbar-expand-lg sticky-top pt-3 pb-0 bg-white"
@@ -88,33 +88,44 @@
         </div>
       </section>
 
-      <section id="our-services" class="our-services">
+      <section id="our-services" class="our-services position-relative">
+        <div class="bg-service-vector position-absolute z-n1">
+          <img
+            src="/assets/images/services-bg-vector.png"
+            alt="background element"
+          />
+        </div>
         <div class="service-content text-center mx-auto">
-          <h2 class="fw-bold m-0">Our services</h2>
-          <hr class="mx-auto mb-0" />
-          <p class="mb-0">
+          <h2 class="fw-bold m-0 mx-auto">Our services</h2>
+          <hr class="mx-auto mb-0 mx-auto" />
+          <p class="mb-0 mx-auto">
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly
             qualified doctors you can consult with us which type of service is
             suitable for your health
           </p>
         </div>
-        <div class="card-container">
+        <div class="card-container position-relative">
+          <div class="bg-service-element position-absolute z-n1">
+            <img src="/assets/images/element.svg" alt="" />
+          </div>
           <div
             class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 justify-content-center"
           >
             <div class="col">
               <div class="card h-100">
-                <div class="icon-container">
-                  <img
-                    src="/assets/images/icons/search.svg"
-                    class="img-fluid"
-                    alt="search icon"
-                  />
+                <div class="icon-container d-flex justify-content-center justify-content-md-start">
+                  <div class="icon">
+                    <img
+                      src="/assets/images/icons/search.svg"
+                      class="img-fluid object-fit-cover"
+                      alt="search icon"
+                    />
+                  </div>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Search doctor</h5>
-                  <p class="card-text">
+                  <h5 class="card-title fw-bold mb-3">Search doctor</h5>
+                  <p class="card-text fw-light">
                     Choose your doctor from thousands of specialist, general,
                     and trusted hospitals
                   </p>
@@ -123,16 +134,18 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <div class="icon-container">
-                  <img
-                    src="/assets/images/icons/online-pharmacy.svg"
-                    class="img-fluid"
-                    alt="search icon"
-                  />
+                <div class="icon-container d-flex justify-content-center justify-content-md-start">
+                  <div class="icon">
+                    <img
+                      src="/assets/images/icons/online-pharmacy.svg"
+                      class="img-fluid"
+                      alt="search icon"
+                    />
+                  </div>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Online pharmacy</h5>
-                  <p class="card-text">
+                  <h5 class="card-title fw-bold mb-3">Online pharmacy</h5>
+                  <p class="card-text fw-light">
                     Buy your medicines with our mobile application with a simple
                     delivery system
                   </p>
@@ -141,16 +154,18 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <div class="icon-container">
-                  <img
-                    src="/assets/images/icons/consultation.svg"
-                    class="img-fluid"
-                    alt="search icon"
-                  />
+                <div class="icon-container d-flex justify-content-center justify-content-md-start">
+                  <div class="icon">
+                    <img
+                      src="/assets/images/icons/consultation.svg"
+                      class="img-fluid"
+                      alt="search icon"
+                    />
+                  </div>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Consultation</h5>
-                  <p class="card-text">
+                  <h5 class="card-title fw-bold mb-3">Consultation</h5>
+                  <p class="card-text fw-light">
                     Free consultation with our trusted doctors and get the best
                     recomendations
                   </p>
@@ -159,16 +174,18 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <div class="icon-container">
-                  <img
-                    src="/assets/images/icons/details.svg"
-                    class="img-fluid"
-                    alt="search icon"
-                  />
+                <div class="icon-container d-flex justify-content-center justify-content-md-start">
+                  <div class="icon">
+                    <img
+                      src="/assets/images/icons/details.svg"
+                      class="img-fluid"
+                      alt="search icon"
+                    />
+                  </div>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Details info</h5>
-                  <p class="card-text">
+                  <h5 class="card-title fw-bold mb-3">Details info</h5>
+                  <p class="card-text fw-light">
                     Free consultation with our trusted doctors and get the best
                     recomendations
                   </p>
@@ -177,16 +194,18 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <div class="icon-container">
-                  <img
-                    src="/assets/images/icons/emergency-care.svg"
-                    class="img-fluid"
-                    alt="search icon"
-                  />
+                <div class="icon-container d-flex justify-content-center justify-content-md-start">
+                  <div class="icon">
+                    <img
+                      src="/assets/images/icons/emergency-care.svg"
+                      class="img-fluid"
+                      alt="search icon"
+                    />
+                  </div>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Emergency care</h5>
-                  <p class="card-text">
+                  <h5 class="card-title fw-bold mb-3">Emergency care</h5>
+                  <p class="card-text fw-light">
                     You can get 24/7 urgent care for yourself or your children
                     and your lovely family
                   </p>
@@ -195,16 +214,18 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <div class="icon-container">
-                  <img
-                    src="/assets/images/icons/tracking.svg"
-                    class="img-fluid"
-                    alt="search icon"
-                  />
+                <div class="icon-container d-flex justify-content-center justify-content-md-start">
+                  <div class="icon">
+                    <img
+                      src="/assets/images/icons/tracking.svg"
+                      class="img-fluid"
+                      alt="search icon"
+                    />
+                  </div>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Tracking</h5>
-                  <p class="card-text">
+                  <h5 class="card-title fw-bold mb-3">Tracking</h5>
+                  <p class="card-text fw-light">
                     Track and save your medical history and health data
                   </p>
                 </div>
@@ -212,10 +233,13 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-outline-primary rounded-pill">Learn more</button>
+        <div class="btn-container text-center">
+          <button class="btn btn-outline-primary rounded-pill fw-bold">
+            Learn more
+          </button>
+        </div>
       </section>
     </div>
-
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
