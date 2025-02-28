@@ -259,10 +259,10 @@ nav {
   }
 }
 .testimonial-section {
-  max-width: 1120px;
-  margin: 266px 284px 0 242px;
+  margin: 266px 261px 0 219px;
   .custom-slider {
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    max-width: 1120px;
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
     border-radius: 24px;
     .testimonial-card {
       h4 {
@@ -282,6 +282,60 @@ nav {
       }
       .slide-content {
         margin: 66px 118px 79px 118px;
+        h5 {
+          font-size: 22px;
+          color: #fff;
+          width: 184px;
+        }
+        p {
+          font-size: 18px;
+          color: #ffffffe5;
+        }
+        .head-text {
+          margin-left: 29px;
+          p {
+            color: #ffffffd9;
+          }
+        }
+        .slide-text {
+          max-width: 420px;
+          margin-left: 110px !important;
+        }
+      }
+    }
+  }
+  .carousel-controls-wrapper {
+    margin-top: 43px;
+    .custom-prev-icon {
+      transform: rotate(90deg);
+      fill: rgba(91, 155, 243, 0.3);
+      transition: fill 0.2s ease;
+      &:hover {
+        fill: #5b9bf3;
+      }
+    }
+    .carousel-indicators {
+      margin-inline: 80px !important;
+    }
+    .carousel-indicators [data-bs-target] {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: rgba(91, 155, 243, 0.3);
+      border: none;
+      margin: 0 9px;
+    }
+
+    .carousel-indicators .active {
+      background-color: #5b9bf3;
+      opacity: 1;
+    }
+    .custom-next-icon {
+      transform: rotate(-90deg);
+      fill: rgba(91, 155, 243, 0.3);
+      transition: fill 0.2s ease;
+      &:hover {
+        fill: #5b9bf3;
       }
     }
   }
@@ -390,6 +444,39 @@ nav {
       }
       .btn-outline-primary {
         margin-top: 30px;
+      }
+    }
+  }
+  .testimonial-section {
+    margin: 100px 100px 0 100px;
+    .custom-slider {
+      // max-width: 952px;
+      .testimonial-card {
+        h4 {
+          font-size: 32px;
+          margin-top: 50px;
+        }
+        hr {
+          max-width: 50px;
+          margin-top: 20px;
+        }
+        .slide-content {
+          margin: 50px 50px 50px 50px;
+          h5 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 16px;
+          }
+          .head-text {
+            p {
+              font-size: 14px;
+            }
+          }
+          .slide-text {
+            max-width: 395px;
+          }
+        }
       }
     }
   }
@@ -518,6 +605,38 @@ nav {
       }
     }
   }
+  .testimonial-section {
+    margin: 50px 50px 0 50px;
+    .custom-slider {
+      .testimonial-card {
+        h4 {
+          font-size: 28px;
+          margin-top: 40px;
+        }
+        hr {
+          max-width: 40px;
+          margin-top: 20px;
+        }
+        .slide-content {
+          margin: 40px 40px 40px 40px;
+          h5 {
+            font-size: 18px;
+          }
+          p {
+            font-size: 16px;
+          }
+          .head-text {
+            p {
+              font-size: 14px;
+            }
+          }
+          .slide-text {
+            max-width: 395px;
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 992px) {
   nav {
@@ -598,6 +717,22 @@ nav {
       }
     }
   }
+  .testimonial-section {
+    .custom-slider {
+      .testimonial-card {
+        .slide-content {
+          .head-text {
+            margin-left: 0;
+            margin-top: 15px;
+          }
+          .slide-text {
+            margin-left: 0 !important;
+            margin-top: 15px !important;
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 768px) {
   .our-services {
@@ -653,6 +788,21 @@ nav {
       width: 100%;
     }
   }
+  .testimonial-section {
+    width: 100%;
+    margin: 50px 0 0 0;
+    padding: 0 20px;
+    .custom-slider {
+      .testimonial-card {
+        h4 {
+          padding: 0 20px;
+        }
+        .slide-content {
+          margin: 50px 20px 50px 20px;
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 568px) {
   .our-services {
@@ -662,6 +812,14 @@ nav {
     .bg-service-vector {
       top: 305px;
       left: -639.34px;
+    }
+  }
+  .testimonial-section {
+    .carousel-controls-wrapper {
+      margin-top: 25px;
+      .carousel-indicators {
+        margin-inline: 45px !important;
+      }
     }
   }
 }
