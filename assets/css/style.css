@@ -88,6 +88,11 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   top: 215px;
   left: -345.34px;
 }
+.our-services .bg-service-element {
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% + 595px), calc(-50% + 31px));
+}
 .our-services .service-content {
   max-width: 952px;
 }
@@ -108,10 +113,6 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
 }
 .our-services .card-container {
   margin-top: 80px;
-}
-.our-services .card-container .bg-service-element {
-  top: 285px;
-  right: 19.42px;
 }
 .our-services .card-container .row .col .card {
   border: none;
@@ -154,6 +155,48 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   padding: 15px 50px;
 }
 
+.healthcare-section {
+  margin: 220px 192px 0 135px;
+}
+.healthcare-section .healthcare-content {
+  max-width: 486px;
+  margin-left: 50px;
+}
+.healthcare-section .healthcare-content h2 {
+  font-size: 36px;
+}
+.healthcare-section .healthcare-content hr {
+  border: 2px solid black;
+  opacity: 1;
+  max-width: 56px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 26px;
+}
+.healthcare-section .healthcare-content p {
+  font-size: 18px;
+  color: #7d7987;
+  margin-top: 31px;
+  max-width: 450px;
+}
+.healthcare-section .healthcare-content .button-container {
+  margin-top: 40px;
+}
+.healthcare-section .healthcare-content .button-container .btn-outline-primary {
+  --bs-btn-color: #458ff6;
+  --bs-btn-border-color: #458ff6;
+  --bs-btn-hover-bg: #458ff6;
+  --bs-btn-hover-border-color: #458ff6;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-bg: #307be6;
+  --bs-btn-active-border-color: #307be6;
+  --bs-btn-active-color: #fff;
+  --bs-btn-disabled-color: #458ff6;
+  --bs-btn-disabled-border-color: #458ff6;
+  font-size: 18px;
+  padding: 15px 50px;
+}
+
 @media screen and (max-width: 1400px) {
   nav {
     margin: 36px 100px 0 100px;
@@ -181,6 +224,9 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   }
   .our-services {
     margin: 100px 100px 0 100px;
+  }
+  .our-services .bg-service-element {
+    transform: translate(calc(-50% + 485px), calc(-50% + 20px));
   }
   .our-services .service-content h2 {
     font-size: 32px;
@@ -211,6 +257,22 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   .our-services .btn-container {
     margin-top: 50px;
   }
+  .healthcare-section {
+    margin: 100px 100px 0 100px;
+  }
+  .healthcare-section .healthcare-content h2 {
+    font-size: 32px;
+    max-width: 395px;
+  }
+  .healthcare-section .healthcare-content hr {
+    max-width: 50px;
+    margin-top: 20px;
+  }
+  .healthcare-section .healthcare-content p {
+    font-size: 16px;
+    margin-top: 25px;
+    max-width: 395px;
+  }
 }
 @media screen and (max-width: 1200px) {
   nav {
@@ -240,6 +302,9 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   .our-services {
     margin: 50px 50px 0 50px;
   }
+  .our-services .bg-service-element {
+    transform: translate(calc(-50% + 425px), calc(-50% + 15px));
+  }
   .our-services .bg-service-vector {
     top: 130px;
     left: -420.34px;
@@ -258,10 +323,6 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   .our-services .card-container {
     margin-top: 40px;
   }
-  .our-services .card-container .bg-service-element {
-    top: 247px;
-    right: -38.58px;
-  }
   .our-services .card-container .row .col .card .icon-container {
     padding: 30px 0 0 20px;
   }
@@ -279,6 +340,28 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
     margin-top: 30px;
   }
   .our-services .btn-container .btn-outline-primary {
+    font-size: 16px;
+    padding: 12px 40px;
+  }
+  .healthcare-section {
+    margin: 50px 50px 0 50px;
+  }
+  .healthcare-section .healthcare-content h2 {
+    font-size: 28px;
+  }
+  .healthcare-section .healthcare-content hr {
+    max-width: 40px;
+    margin-top: 20px;
+  }
+  .healthcare-section .healthcare-content p {
+    font-size: 16px;
+    margin-top: 20px;
+    max-width: 395px;
+  }
+  .healthcare-section .healthcare-content .button-container {
+    margin-top: 20px;
+  }
+  .healthcare-section .healthcare-content .button-container .btn-outline-primary {
     font-size: 16px;
     padding: 12px 40px;
   }
@@ -310,6 +393,9 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   .hero-section .hero-background {
     padding: 0 20px;
   }
+  .our-services .bg-service-element {
+    transform: translate(calc(-50% + 315px), calc(-50% + 187px));
+  }
   .our-services .bg-service-vector {
     top: 190px;
     left: -500.34px;
@@ -324,11 +410,24 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
     top: 240px;
     right: -0.58px;
   }
+  .healthcare-section .healthcare-content {
+    padding: 50px 20px 0 20px;
+    margin-left: 0;
+    max-width: 952px;
+    width: 100%;
+  }
+  .healthcare-section .healthcare-content h2,
+  .healthcare-section .healthcare-content p {
+    max-width: 520px;
+  }
 }
 @media screen and (max-width: 768px) {
   .our-services {
     width: 100%;
     margin: 50px 0 0 0;
+  }
+  .our-services .bg-service-element {
+    transform: translate(calc(-50% + 218px), calc(-50% + 86px));
   }
   .our-services .bg-service-vector {
     top: 230px;
@@ -342,10 +441,6 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
     padding: 10px 20px 0 20px;
     width: 100%;
   }
-  .our-services .card-container .bg-service-element {
-    top: 460px;
-    right: 10px;
-  }
   .our-services .card-container .row .col {
     max-width: 500px;
     width: 100%;
@@ -354,14 +449,28 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   .our-services .card-container .row .col .card .icon-container {
     padding: 30px 0 0 0;
   }
+  .healthcare-section {
+    width: 100%;
+    margin: 50px 0 0 0;
+  }
+  .healthcare-section .heathcare-background {
+    padding: 0 20px;
+  }
+  .healthcare-section .healthcare-content {
+    padding: 50px 20px 0 20px;
+    width: 100%;
+  }
+  .healthcare-section .healthcare-content h2,
+  .healthcare-section .healthcare-content p {
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 568px) {
+  .our-services .bg-service-element {
+    transform: translate(calc(-50% + 120px), calc(-50% + 121px));
+  }
   .our-services .bg-service-vector {
     top: 305px;
     left: -639.34px;
-  }
-  .our-services .card-container .bg-service-element {
-    top: 564px;
-    right: 7px;
   }
 }

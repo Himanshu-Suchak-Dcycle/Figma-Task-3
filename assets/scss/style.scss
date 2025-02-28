@@ -97,6 +97,11 @@ nav {
     top: 215px;
     left: -345.34px;
   }
+  .bg-service-element {
+    top: 50%;
+    left: 50%;
+    transform: translate(calc(-50% - -595px), calc(-50% - -31px));
+  }
   .service-content {
     max-width: 952px;
     h2 {
@@ -117,10 +122,6 @@ nav {
   }
   .card-container {
     margin-top: 80px;
-    .bg-service-element {
-      top: 285px;
-      right: 19.42px;
-    }
     .row {
       .col {
         .card {
@@ -167,6 +168,47 @@ nav {
     }
   }
 }
+.healthcare-section {
+  margin: 220px 192px 0 135px;
+  .healthcare-content {
+    max-width: 486px;
+    margin-left: 50px;
+    h2 {
+      font-size: 36px;
+    }
+    hr {
+      border: 2px solid black;
+      opacity: 1;
+      max-width: 56px;
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 26px;
+    }
+    p {
+      font-size: 18px;
+      color: #7d7987;
+      margin-top: 31px;
+      max-width: 450px;
+    }
+    .button-container {
+      margin-top: 40px;
+      .btn-outline-primary {
+        --bs-btn-color: #458ff6;
+        --bs-btn-border-color: #458ff6;
+        --bs-btn-hover-bg: #458ff6;
+        --bs-btn-hover-border-color: #458ff6;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-active-bg: #307be6;
+        --bs-btn-active-border-color: #307be6;
+        --bs-btn-active-color: #fff;
+        --bs-btn-disabled-color: #458ff6;
+        --bs-btn-disabled-border-color: #458ff6;
+        font-size: 18px;
+        padding: 15px 50px;
+      }
+    }
+  }
+}
 @media screen and (max-width: 1400px) {
   nav {
     margin: 36px 100px 0 100px;
@@ -195,6 +237,9 @@ nav {
   }
   .our-services {
     margin: 100px 100px 0 100px;
+    .bg-service-element {
+      transform: translate(calc(-50% - -485px), calc(-50% - -20px));
+    }
     .service-content {
       h2 {
         font-size: 32px;
@@ -233,6 +278,24 @@ nav {
       margin-top: 50px;
     }
   }
+  .healthcare-section {
+    margin: 100px 100px 0 100px;
+    .healthcare-content {
+      h2 {
+        font-size: 32px;
+        max-width: 395px;
+      }
+      hr {
+        max-width: 50px;
+        margin-top: 20px;
+      }
+      p {
+        font-size: 16px;
+        margin-top: 25px;
+        max-width: 395px;
+      }
+    }
+  }
 }
 @media screen and (max-width: 1200px) {
   nav {
@@ -262,6 +325,9 @@ nav {
   }
   .our-services {
     margin: 50px 50px 0 50px;
+    .bg-service-element {
+      transform: translate(calc(-50% - -425px), calc(-50% - -15px));
+    }
     .bg-service-vector {
       top: 130px;
       left: -420.34px;
@@ -281,10 +347,6 @@ nav {
     }
     .card-container {
       margin-top: 40px;
-      .bg-service-element {
-        top: 247px;
-        right: -38.58px;
-      }
       .row {
         .col {
           .card {
@@ -310,6 +372,30 @@ nav {
       .btn-outline-primary {
         font-size: 16px;
         padding: 12px 40px;
+      }
+    }
+  }
+  .healthcare-section {
+    margin: 50px 50px 0 50px;
+    .healthcare-content {
+      h2 {
+        font-size: 28px;
+      }
+      hr {
+        max-width: 40px;
+        margin-top: 20px;
+      }
+      p {
+        font-size: 16px;
+        margin-top: 20px;
+        max-width: 395px;
+      }
+      .button-container {
+        margin-top: 20px;
+        .btn-outline-primary {
+          font-size: 16px;
+          padding: 12px 40px;
+        }
       }
     }
   }
@@ -342,6 +428,9 @@ nav {
     }
   }
   .our-services {
+    .bg-service-element {
+      transform: translate(calc(-50% + 315px), calc(-50% + 187px));
+    }
     .bg-service-vector {
       top: 190px;
       left: -500.34px;
@@ -361,11 +450,26 @@ nav {
       }
     }
   }
+  .healthcare-section {
+    .healthcare-content {
+      padding: 50px 20px 0 20px;
+      margin-left: 0;
+      max-width: 952px;
+      width: 100%;
+      h2,
+      p {
+        max-width: 520px;
+      }
+    }
+  }
 }
 @media screen and (max-width: 768px) {
   .our-services {
     width: 100%;
     margin: 50px 0 0 0;
+    .bg-service-element {
+      transform: translate(calc(-50% + 218px), calc(-50% + 86px));
+    }
     .bg-service-vector {
       top: 230px;
       left: -510.34px;
@@ -377,10 +481,6 @@ nav {
     .card-container {
       padding: 10px 20px 0 20px;
       width: 100%;
-      .bg-service-element {
-        top: 460px;
-        right: 10px;
-      }
       .row {
         .col {
           max-width: 500px;
@@ -395,18 +495,30 @@ nav {
       }
     }
   }
+  .healthcare-section {
+    width: 100%;
+    margin: 50px 0 0 0;
+    .heathcare-background {
+      padding: 0 20px;
+    }
+    .healthcare-content {
+      padding: 50px 20px 0 20px;
+      width: 100%;
+      h2,
+      p {
+        max-width: 100%;
+      }
+    }
+  }
 }
 @media screen and (max-width: 568px) {
   .our-services {
+    .bg-service-element {
+      transform: translate(calc(-50% + 120px), calc(-50% + 121px));
+    }
     .bg-service-vector {
       top: 305px;
       left: -639.34px;
-    }
-    .card-container {
-      .bg-service-element {
-        top: 564px;
-        right: 7px;
-      }
     }
   }
 }
