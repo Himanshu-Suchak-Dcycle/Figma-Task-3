@@ -197,6 +197,80 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   padding: 15px 50px;
 }
 
+.download-section {
+  margin: 229px 164px 0 280px;
+}
+.download-section .download-content {
+  max-width: 420px;
+  padding: 36px 71px 23px 0;
+}
+.download-section .download-content h2 {
+  font-size: 36px;
+}
+.download-section .download-content hr {
+  border: 2px solid black;
+  opacity: 1;
+  max-width: 56px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.download-section .download-content p {
+  font-size: 18px;
+  color: #7d7987;
+  margin-top: 31px;
+}
+.download-section .download-content .btn-outline-primary {
+  --bs-btn-color: #458ff6;
+  --bs-btn-border-color: #458ff6;
+  --bs-btn-hover-bg: #458ff6;
+  --bs-btn-hover-border-color: #458ff6;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-bg: #307be6;
+  --bs-btn-active-border-color: #307be6;
+  --bs-btn-active-color: #fff;
+  --bs-btn-disabled-color: #458ff6;
+  --bs-btn-disabled-border-color: #458ff6;
+  font-size: 18px;
+  padding: 15px 43px;
+  margin-top: 40px;
+}
+.download-section .download-content .btn-outline-primary .icon-container {
+  width: 16px;
+  height: 16px;
+}
+.download-section .download-content .btn-outline-primary .download-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-section {
+  max-width: 1120px;
+  margin: 266px 284px 0 242px;
+}
+.testimonial-section .custom-slider {
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+}
+.testimonial-section .custom-slider .testimonial-card h4 {
+  font-size: 36px;
+  margin-top: 64px;
+  margin-bottom: 0;
+  margin-inline: auto;
+  color: #fff;
+}
+.testimonial-section .custom-slider .testimonial-card hr {
+  border: 2px solid #fff;
+  opacity: 1;
+  max-width: 56px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 26px;
+}
+.testimonial-section .custom-slider .testimonial-card .slide-content {
+  margin: 66px 118px 79px 118px;
+}
+
 @media screen and (max-width: 1400px) {
   nav {
     margin: 36px 100px 0 100px;
@@ -272,6 +346,26 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
     font-size: 16px;
     margin-top: 25px;
     max-width: 395px;
+  }
+  .download-section {
+    margin: 100px 100px 0 100px;
+  }
+  .download-section .download-content {
+    padding: 30px 50px 0 0;
+  }
+  .download-section .download-content h2 {
+    font-size: 32px;
+  }
+  .download-section .download-content hr {
+    max-width: 50px;
+    margin-top: 20px;
+  }
+  .download-section .download-content p {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  .download-section .download-content .btn-outline-primary {
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -365,6 +459,28 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
     font-size: 16px;
     padding: 12px 40px;
   }
+  .download-section {
+    margin: 50px 50px 0 50px;
+  }
+  .download-section .download-content {
+    padding: 20px 30px 0 0;
+  }
+  .download-section .download-content h2 {
+    font-size: 28px;
+  }
+  .download-section .download-content hr {
+    max-width: 40px;
+    margin-top: 20px;
+  }
+  .download-section .download-content p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .download-section .download-content .btn-outline-primary {
+    font-size: 16px;
+    padding: 12px 32px;
+    margin-top: 20px;
+  }
 }
 @media screen and (max-width: 992px) {
   nav {
@@ -416,9 +532,24 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
     max-width: 952px;
     width: 100%;
   }
+  .healthcare-section .healthcare-content hr {
+    margin-inline: auto;
+  }
   .healthcare-section .healthcare-content h2,
   .healthcare-section .healthcare-content p {
     max-width: 520px;
+  }
+  .download-section .download-content {
+    padding: 50px 20px 0 20px;
+    max-width: 952px;
+    width: 100%;
+  }
+  .download-section .download-content h2,
+  .download-section .download-content p {
+    max-width: 520px;
+  }
+  .download-section .download-content hr {
+    margin-inline: auto;
   }
 }
 @media screen and (max-width: 768px) {
@@ -460,9 +591,16 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
     padding: 50px 20px 0 20px;
     width: 100%;
   }
-  .healthcare-section .healthcare-content h2,
-  .healthcare-section .healthcare-content p {
-    max-width: 100%;
+  .download-section {
+    width: 100%;
+    margin: 50px 0 0 0;
+  }
+  .download-section .download-background {
+    padding: 0 20px;
+  }
+  .download-section .download-content {
+    padding: 50px 20px 0 20px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 568px) {
