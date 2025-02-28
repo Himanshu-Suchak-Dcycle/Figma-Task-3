@@ -340,6 +340,89 @@ nav {
     }
   }
 }
+.article-section {
+  margin: 222px 240px 0 240px;
+  h2 {
+    font-size: 36px;
+  }
+  hr {
+    border: 2px solid black;
+    opacity: 1;
+    max-width: 56px;
+    border-radius: 5px;
+    margin-top: 26px;
+  }
+  .article-cards {
+    margin-top: 79px;
+    .card {
+      max-width: 350px;
+      margin: 0 auto;
+      border: none;
+      box-shadow: 10px 40px 50px 0px #e5e9f666;
+      border-radius: 20px;
+      .card-body {
+        padding: 24px 51px 35px 33px;
+        h5 {
+          font-size: 21px;
+          line-height: 32px;
+          font-weight: bold;
+          margin-bottom: 12px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 28px;
+          color: #7d7987;
+          font-weight: 300;
+          margin-bottom: 25px;
+        }
+      }
+      .card-img-top {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+      .read-more {
+        color: #4089ed;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.2s ease;
+
+        &:hover {
+          color: darken(#4089ed, 10%);
+        }
+        .read-more-text {
+          padding-right: 10px;
+          font-weight: 600;
+        }
+        .download-icon {
+          transform: rotate(-90deg);
+          transition: transform 0.3s ease-in-out;
+        }
+
+        &:hover .download-icon {
+          transform: rotate(-90deg) scale(1.1);
+        }
+      }
+    }
+  }
+  .btn-container {
+    margin-top: 72px;
+    .btn-outline-primary {
+      --bs-btn-color: #458ff6;
+      --bs-btn-border-color: #458ff6;
+      --bs-btn-hover-bg: #458ff6;
+      --bs-btn-hover-border-color: #458ff6;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-active-bg: #307be6;
+      --bs-btn-active-border-color: #307be6;
+      --bs-btn-active-color: #fff;
+      --bs-btn-disabled-color: #458ff6;
+      --bs-btn-disabled-border-color: #458ff6;
+
+      font-size: 18px;
+      padding: 15px 68px;
+    }
+  }
+}
 @media screen and (max-width: 1400px) {
   nav {
     margin: 36px 100px 0 100px;
