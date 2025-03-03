@@ -354,6 +354,9 @@ nav {
   }
   .article-cards {
     margin-top: 79px;
+    .row {
+      row-gap: 20px;
+    }
     .card {
       max-width: 350px;
       margin: 0 auto;
@@ -420,6 +423,77 @@ nav {
 
       font-size: 18px;
       padding: 15px 68px;
+    }
+  }
+}
+.footer-relative {
+  .footer-element1 {
+    top: -72px;
+    right: 92px;
+  }
+}
+footer {
+  max-width: 100%;
+  width: 100%;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  margin-top: 201px;
+  padding: 109px 214px 109px 190px;
+  .footer-element {
+    bottom: -19px;
+    left: -19px;
+  }
+  .footer-element1 {
+    top: -72px;
+    right: 92px;
+  }
+  .company-details {
+    max-width: 395px;
+    .footer-brand {
+      text-decoration: none;
+      margin-bottom: 17px;
+      .logo {
+        font-size: 26px;
+        color: #458ff6;
+        padding: 5px 13px;
+        margin-right: 12px;
+        background-color: white;
+      }
+      .brand {
+        font-size: 24px;
+      }
+    }
+    .company-description,
+    .company-copyright {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .company-description {
+      margin-top: 17px !important;
+      margin-bottom: 31px !important;
+    }
+  }
+  .foot-links {
+    margin-left: 145px;
+    .company,
+    .region,
+    .help {
+      list-style-type: none;
+      .list-head {
+        font-size: 20px;
+        margin-bottom: 17px;
+      }
+      font-size: 18px;
+      line-height: 38px;
+    }
+    .company li:nth-child(4) {
+      width: 107px;
+    }
+    .help li:nth-child(5) {
+      width: 109px;
+    }
+    .region,
+    .help {
+      padding-left: 185px !important;
     }
   }
 }
@@ -560,6 +634,57 @@ nav {
             max-width: 395px;
           }
         }
+      }
+    }
+  }
+  .article-section {
+    margin: 100px 100px 0 100px;
+    .article-content {
+      h2 {
+        font-size: 32px;
+      }
+      hr {
+        max-width: 50px;
+        margin-top: 20px;
+      }
+    }
+    .article-cards {
+      margin-top: 69px;
+      .row {
+        .card {
+          .card-body {
+            .card-title {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .btn-container {
+      margin-top: 50px;
+    }
+  }
+  footer {
+    margin-top: 100px;
+    padding: 100px;
+    .company-details {
+      .company-description,
+      .company-copyright {
+        font-size: 16px;
+      }
+    }
+    .foot-links {
+      .company,
+      .region,
+      .help {
+        .list-head {
+          font-size: 18px;
+        }
+        font-size: 16px;
+      }
+      .region,
+      .help {
+        padding-left: 125px !important;
       }
     }
   }
@@ -720,6 +845,40 @@ nav {
       }
     }
   }
+  .article-section {
+    margin: 50px 50px 0 50px;
+    .article-content {
+      h2 {
+        font-size: 28px;
+      }
+      hr {
+        max-width: 40px;
+      }
+    }
+    .article-cards {
+      .row {
+        .card {
+          .card-body {
+            padding: 24px 35px 35px 25px;
+          }
+        }
+      }
+    }
+    .btn-container {
+      .btn-outline-primary {
+        padding: 11px 49px;
+      }
+    }
+  }
+  footer {
+    padding: 50px;
+    .foot-links {
+      .region,
+      .help {
+        padding-left: 85px !important;
+      }
+    }
+  }
 }
 @media screen and (max-width: 992px) {
   nav {
@@ -816,6 +975,18 @@ nav {
       }
     }
   }
+  footer {
+    .foot-links {
+      margin: 0;
+      width: 100%;
+      margin-top: 40px;
+      .company,
+      .region,
+      .help {
+        padding-inline: 40px !important;
+      }
+    }
+  }
 }
 @media screen and (max-width: 768px) {
   .our-services {
@@ -886,6 +1057,25 @@ nav {
       }
     }
   }
+  .article-section {
+    width: 100%;
+    margin: 50px 0 0 0;
+    padding: 0 20px;
+    .article-cards {
+      .row {
+        .col {
+          .card {
+            max-width: 500px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    margin-top: 80px;
+    padding: 20px;
+  }
 }
 @media screen and (max-width: 568px) {
   .our-services {
@@ -902,6 +1092,28 @@ nav {
       margin-top: 25px;
       .carousel-indicators {
         margin-inline: 45px !important;
+      }
+    }
+  }
+  .article-section {
+    .article-cards {
+      .row {
+        .col {
+          .card {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .foot-links {
+      row-gap: 10px;
+      flex-wrap: wrap;
+      .company,
+      .region,
+      .help {
+        padding-inline: 20px !important;
       }
     }
   }
