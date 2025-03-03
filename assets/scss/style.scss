@@ -209,6 +209,12 @@ nav {
     }
   }
 }
+.download-relative {
+  .download-element {
+    top: 0;
+    right: -46px;
+  }
+}
 .download-section {
   margin: 229px 164px 0 280px;
   .download-content {
@@ -1058,9 +1064,6 @@ footer {
     }
   }
   .testimonial-section {
-    .testimonial-element {
-      right: -27px;
-    }
     width: 100%;
     margin: 50px 0 0 0;
     padding: 0 20px;

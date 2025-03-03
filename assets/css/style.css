@@ -197,6 +197,11 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   padding: 15px 50px;
 }
 
+.download-relative .download-element {
+  top: 0;
+  right: -46px;
+}
+
 .download-section {
   margin: 229px 164px 0 280px;
 }
@@ -960,9 +965,6 @@ footer .foot-links .help {
     width: 100%;
     margin: 50px 0 0 0;
     padding: 0 20px;
-  }
-  .testimonial-section .testimonial-element {
-    right: -27px;
   }
   .testimonial-section .custom-slider .testimonial-card h4 {
     padding: 0 20px;
