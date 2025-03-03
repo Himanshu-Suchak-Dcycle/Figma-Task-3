@@ -260,6 +260,16 @@ nav {
 }
 .testimonial-section {
   margin: 266px 261px 0 219px;
+  .testimonial-element {
+    top: -15px;
+    right: -48px;
+  }
+  .testimonial-relative {
+    .testimonial-element1 {
+      bottom: 39px;
+      left: -52px;
+    }
+  }
   .custom-slider {
     max-width: 1120px;
     background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
@@ -815,6 +825,11 @@ footer {
   }
   .testimonial-section {
     margin: 50px 50px 0 50px;
+    .testimonial-relative {
+      .testimonial-element1 {
+        left: -45px;
+      }
+    }
     .custom-slider {
       .testimonial-card {
         h4 {
@@ -1043,6 +1058,9 @@ footer {
     }
   }
   .testimonial-section {
+    .testimonial-element {
+      right: -27px;
+    }
     width: 100%;
     margin: 50px 0 0 0;
     padding: 0 20px;

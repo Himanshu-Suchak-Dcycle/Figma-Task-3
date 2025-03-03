@@ -247,6 +247,14 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
 .testimonial-section {
   margin: 266px 261px 0 219px;
 }
+.testimonial-section .testimonial-element {
+  top: -15px;
+  right: -48px;
+}
+.testimonial-section .testimonial-relative .testimonial-element1 {
+  bottom: 39px;
+  left: -52px;
+}
 .testimonial-section .custom-slider {
   max-width: 1120px;
   background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
@@ -761,6 +769,9 @@ footer .foot-links .help {
   .testimonial-section {
     margin: 50px 50px 0 50px;
   }
+  .testimonial-section .testimonial-relative .testimonial-element1 {
+    left: -45px;
+  }
   .testimonial-section .custom-slider .testimonial-card h4 {
     font-size: 28px;
     margin-top: 40px;
@@ -949,6 +960,9 @@ footer .foot-links .help {
     width: 100%;
     margin: 50px 0 0 0;
     padding: 0 20px;
+  }
+  .testimonial-section .testimonial-element {
+    right: -27px;
   }
   .testimonial-section .custom-slider .testimonial-card h4 {
     padding: 0 20px;
