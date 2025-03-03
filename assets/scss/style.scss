@@ -18,7 +18,8 @@ body {
   width: 100%;
 }
 nav {
-  margin: 56px 192px 0 191px;
+  margin-top: 56px;
+  padding: 0 192px 0 191px !important;
   .container-fluid {
     .navbar-brand {
       .logo {
@@ -92,6 +93,7 @@ nav {
   }
 }
 .service-relative {
+  scroll-padding-top: 500px;
   .service-background {
     top: 405px;
     left: -172px;
@@ -535,7 +537,8 @@ footer {
 }
 @media screen and (max-width: 1400px) {
   nav {
-    margin: 36px 100px 0 100px;
+    margin-top: 36px;
+    padding-inline: 100px !important;
   }
   .hero-section {
     margin-left: 100px;
@@ -736,7 +739,8 @@ footer {
 }
 @media screen and (max-width: 1200px) {
   nav {
-    margin: 26px 50px 0 50px;
+    margin-top: 26px;
+    padding-inline: 50px !important;
     .nav-link {
       font-size: 16px;
     }
@@ -942,7 +946,13 @@ footer {
 }
 @media screen and (max-width: 992px) {
   nav {
-    margin: 0 20px 0 20px;
+    margin-top: 0;
+    padding-inline: 20px !important;
+    .container-fluid {
+      #navbarNav {
+        margin-top: 20px;
+      }
+    }
   }
   .hero-section {
     width: 100%;

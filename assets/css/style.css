@@ -19,7 +19,8 @@ body {
 }
 
 nav {
-  margin: 56px 192px 0 191px;
+  margin-top: 56px;
+  padding: 0 192px 0 191px !important;
 }
 nav .container-fluid .navbar-brand .logo {
   font-size: 26px;
@@ -81,6 +82,9 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   background-color: #2978e8;
 }
 
+.service-relative {
+  scroll-padding-top: 500px;
+}
 .service-relative .service-background {
   top: 405px;
   left: -172px;
@@ -514,7 +518,8 @@ footer .foot-links .help {
 
 @media screen and (max-width: 1400px) {
   nav {
-    margin: 36px 100px 0 100px;
+    margin-top: 36px;
+    padding-inline: 100px !important;
   }
   .hero-section {
     margin-left: 100px;
@@ -683,7 +688,8 @@ footer .foot-links .help {
 }
 @media screen and (max-width: 1200px) {
   nav {
-    margin: 26px 50px 0 50px;
+    margin-top: 26px;
+    padding-inline: 50px !important;
   }
   nav .nav-link {
     font-size: 16px;
@@ -856,7 +862,11 @@ footer .foot-links .help {
 }
 @media screen and (max-width: 992px) {
   nav {
-    margin: 0 20px 0 20px;
+    margin-top: 0;
+    padding-inline: 20px !important;
+  }
+  nav .container-fluid #navbarNav {
+    margin-top: 20px;
   }
   .hero-section {
     width: 100%;
