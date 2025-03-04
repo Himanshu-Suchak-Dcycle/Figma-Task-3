@@ -93,23 +93,16 @@ nav {
   }
 }
 .service-relative {
+  overflow-x: clip;
   scroll-padding-top: 500px;
   .service-background {
-    top: 405px;
-    left: -172px;
+    top: 215px;
+    left: -179px;
   }
 }
 .our-services {
+  scroll-margin-top: 80px;
   margin: 192px 192px 0 191px;
-  .bg-service-vector {
-    top: 215px;
-    left: -345.34px;
-  }
-  .bg-service-element {
-    top: 50%;
-    left: 50%;
-    transform: translate(calc(-50% - -595px), calc(-50% - -31px));
-  }
   .service-content {
     max-width: 952px;
     h2 {
@@ -222,12 +215,14 @@ nav {
   }
 }
 .download-relative {
+  overflow-x: clip;
   .download-element {
-    top: 0;
+    top: -126px;
     right: -46px;
   }
 }
 .download-section {
+  scroll-margin-top: 80px;
   margin: 229px 164px 0 280px;
   .download-content {
     max-width: 420px;
@@ -277,6 +272,7 @@ nav {
   }
 }
 .testimonial-section {
+  scroll-margin-top: 80px;
   margin: 266px 261px 0 219px;
   .testimonial-element {
     top: -15px;
@@ -369,12 +365,14 @@ nav {
   }
 }
 .article-relative {
+  overflow-x: clip;
   .article-background {
-    top: 322px;
+    top: 86px;
     right: -308px;
   }
 }
 .article-section {
+  scroll-margin-top: 80px;
   margin: 222px 240px 0 240px;
   h2 {
     font-size: 36px;
@@ -564,11 +562,12 @@ footer {
   }
   .service-relative {
     .service-background {
-      top: 250px;
-      left: -172px;
+      top: 165px;
+      left: -179px;
     }
   }
   .our-services {
+    scroll-margin-top: 80px;
     margin: 100px 100px 0 100px;
     .service-content {
       h2 {
@@ -627,6 +626,7 @@ footer {
     }
   }
   .download-section {
+    scroll-margin-top: 80px;
     margin: 100px 100px 0 100px;
     .download-content {
       padding: 30px 50px 0 0;
@@ -647,6 +647,7 @@ footer {
     }
   }
   .testimonial-section {
+    scroll-margin-top: 100px;
     margin: 100px 100px 0 100px;
     .custom-slider {
       // max-width: 952px;
@@ -681,11 +682,12 @@ footer {
   }
   .article-relative {
     .article-background {
-      top: 140px;
-      right: -275px;
+      top: 75px;
+      right: -395px;
     }
   }
   .article-section {
+    scroll-margin-top: 80px;
     margin: 100px 100px 0 100px;
     .article-content {
       h2 {
@@ -766,11 +768,14 @@ footer {
   }
   .service-relative {
     .service-background {
-      top: 178px;
-      left: -275px;
+      top: 145px;
+      left: -179px;
+      max-width: 800px;
+      width: 100%;
     }
   }
   .our-services {
+    scroll-margin-top: 80px;
     margin: 50px 50px 0 50px;
     .bg-service-element {
       transform: translate(calc(-50% - -425px), calc(-50% - -15px));
@@ -851,6 +856,7 @@ footer {
     }
   }
   .download-section {
+    scroll-margin-top: 80px;
     margin: 50px 50px 0 50px;
     .download-content {
       padding: 20px 30px 0 0;
@@ -873,6 +879,7 @@ footer {
     }
   }
   .testimonial-section {
+    scroll-margin-top: 100px;
     margin: 50px 50px 0 50px;
     .testimonial-relative {
       .testimonial-element1 {
@@ -910,6 +917,7 @@ footer {
     }
   }
   .article-section {
+    scroll-margin-top: 100px;
     margin: 50px 50px 0 50px;
     .article-content {
       h2 {
@@ -979,11 +987,12 @@ footer {
   }
   .service-relative {
     .service-background {
-      top: 237px;
-      left: -380px;
+      top: 200px;
+      left: -179px;
     }
   }
   .our-services {
+    scroll-margin-top: 310px;
     .bg-service-element {
       transform: translate(calc(-50% + 315px), calc(-50% + 187px));
     }
@@ -1022,6 +1031,7 @@ footer {
     }
   }
   .download-section {
+    scroll-margin-top: 325px;
     .download-content {
       padding: 50px 20px 0 20px;
       max-width: 952px;
@@ -1036,6 +1046,7 @@ footer {
     }
   }
   .testimonial-section {
+    scroll-margin-top: 325px;
     .custom-slider {
       .testimonial-card {
         .slide-content {
@@ -1050,6 +1061,9 @@ footer {
         }
       }
     }
+  }
+  .article-section {
+    scroll-margin-top: 325px;
   }
   footer {
     .foot-links {
@@ -1072,6 +1086,7 @@ footer {
     }
   }
   .our-services {
+    scroll-margin-top: 275px;
     width: 100%;
     margin: 50px 0 0 0;
     .bg-service-element {
@@ -1118,6 +1133,7 @@ footer {
     }
   }
   .download-section {
+    scroll-margin-top: 325px;
     width: 100%;
     margin: 50px 0 0 0;
     .download-background {
@@ -1129,6 +1145,7 @@ footer {
     }
   }
   .testimonial-section {
+    scroll-margin-top: 325px;
     width: 100%;
     margin: 50px 0 0 0;
     padding: 0 20px;
@@ -1144,6 +1161,7 @@ footer {
     }
   }
   .article-section {
+    scroll-margin-top: 300px;
     width: 100%;
     margin: 50px 0 0 0;
     padding: 0 20px;
@@ -1170,6 +1188,7 @@ footer {
     }
   }
   .our-services {
+    scroll-margin-top: 275px;
     .card-container {
       .service-element {
         top: 46%;
@@ -1177,7 +1196,11 @@ footer {
       }
     }
   }
+  .download-section {
+    scroll-margin-top: 325px;
+  }
   .testimonial-section {
+    scroll-margin-top: 325px;
     .carousel-controls-wrapper {
       margin-top: 25px;
       .carousel-indicators {
@@ -1186,6 +1209,7 @@ footer {
     }
   }
   .article-section {
+    scroll-margin-top: 325px;
     .article-cards {
       .row {
         .col {

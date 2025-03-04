@@ -84,17 +84,17 @@
         </div>
       </section>
 
-      <div
-        class="service-relative position-relative overflow-hidden"
-        id="our-services"
-      >
-        <div class="service-background position-absolute z-n1">
+      <div class="service-relative position-relative">
+        <div
+          class="service-background position-absolute z-n1 d-none d-md-block"
+        >
           <img
             src="/assets/images/services-bg-vector.png"
             alt="service background"
+            class="img-fluid"
           />
         </div>
-        <section class="our-services">
+        <section class="our-services" id="our-services">
           <div class="service-content text-center mx-auto">
             <h2 class="fw-bold m-0 mx-auto">Our services</h2>
             <hr class="mx-auto mb-0" />
@@ -283,15 +283,13 @@
         </div>
       </section>
 
-      <div
-        class="download-relative position-relative overflow-hidden"
-        id="download-app"
-      >
-        <div class="download-element position-absolute d-none d-sm-block">
-          <img src="/assets/images/element.svg" alt="background-element" />
+      <div class="download-relative position-relative">
+        <div class="download-element position-absolute d-none d-md-block">
+          <img src="/assets/images/element.svg" alt="background-element" class="img-fluid"/>
         </div>
         <section
           class="download-section d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center"
+          id="download-app"
         >
           <div class="download-content">
             <h2 class="fw-bold m-0 mx-auto text-center text-lg-start">
@@ -565,16 +563,17 @@
       </section>
 
       <div
-        class="article-relative position-relative overflow-hidden"
-        id="article"
+        class="article-relative position-relative"
+        
       >
         <div class="article-background position-absolute d-none d-md-block">
           <img
             src="/assets/images/article-bg-vector.png"
             alt="article background"
+            class="img-fluid"
           />
         </div>
-        <section class="article-section">
+        <section class="article-section" id="article">
           <div class="article-content">
             <h2 class="fw-bold m-0 mx-auto text-center">
               Check out our latest article
