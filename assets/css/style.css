@@ -43,11 +43,6 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link:hover {
   color: #458ff6;
   opacity: 1;
 }
-nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
-  color: #1f1534;
-  font-weight: 700;
-  opacity: 1;
-}
 
 .hero-section {
   margin-left: 191px;
@@ -102,9 +97,10 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   font-size: 36px;
 }
 .our-services .service-content hr {
-  border: 2px solid black;
+  border: 2px solid #000;
   opacity: 1;
   max-width: 56px;
+  width: 100%;
   border-radius: 5px;
   margin-top: 26px;
 }
@@ -172,11 +168,11 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   font-size: 36px;
 }
 .healthcare-section .healthcare-content hr {
-  border: 2px solid black;
+  border: 2px solid #000;
   opacity: 1;
   max-width: 56px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 26px;
 }
 .healthcare-section .healthcare-content p {
@@ -223,11 +219,11 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   font-size: 36px;
 }
 .download-section .download-content hr {
-  border: 2px solid black;
+  border: 2px solid #000;
   opacity: 1;
   max-width: 56px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 30px;
 }
 .download-section .download-content p {
@@ -288,7 +284,7 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   opacity: 1;
   max-width: 56px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 26px;
 }
 .testimonial-section .custom-slider .testimonial-card .slide-content {
@@ -364,9 +360,10 @@ nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link.active {
   font-size: 36px;
 }
 .article-section hr {
-  border: 2px solid black;
+  border: 2px solid #000;
   opacity: 1;
   max-width: 56px;
+  width: 100%;
   border-radius: 5px;
   margin-top: 26px;
 }
@@ -862,7 +859,8 @@ footer .foot-links .help {
     padding: 24px 35px 35px 25px;
   }
   .article-section .btn-container .btn-outline-primary {
-    padding: 11px 49px;
+    font-size: 16px;
+    padding: 12px 53px;
   }
   footer {
     padding: 50px;

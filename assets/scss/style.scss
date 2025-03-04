@@ -1,3 +1,51 @@
+// todo Variables
+$primary-colour: #458ff6;
+$heading-color: #212529;
+$para-color: #7d7987;
+
+$heading-xxl: 48px;
+$heading-xl: 40px;
+$heading-lg: 36px;
+$heading-md: 32px;
+$heading-sm: 28px;
+$card-heading: 24px;
+$card-subheading: 20px;
+$article-heading: 18px;
+
+$para-lg: 21px;
+$para-md: 18px;
+$para-sm: 16px;
+$para-xs: 14px;
+
+$line-hieght-lg: 32px;
+$line-height-md: 28px;
+$line-height-sm: 24px;
+
+$border-radius-lg: 24px;
+$border-radius-md: 20px;
+
+@mixin outline-btn($py: 15px, $px: 50px, $fs: 18px) {
+  --bs-btn-color: #458ff6;
+  --bs-btn-border-color: #458ff6;
+  --bs-btn-hover-bg: #458ff6;
+  --bs-btn-hover-border-color: #458ff6;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-bg: #307be6;
+  --bs-btn-active-border-color: #307be6;
+  --bs-btn-active-color: #fff;
+  --bs-btn-disabled-color: #458ff6;
+  --bs-btn-disabled-border-color: #458ff6;
+  font-size: $fs;
+  padding: $py $px;
+}
+@mixin custom-hr($border-color: #000, $mt:26px) {
+  border: 2px solid $border-color;
+  opacity: 1;
+  max-width: 56px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: $mt;
+}
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
@@ -45,12 +93,6 @@ nav {
 
             &:hover {
               color: #458ff6;
-              opacity: 1;
-            }
-
-            &.active {
-              color: #1f1534;
-              font-weight: 700;
               opacity: 1;
             }
           }
@@ -109,11 +151,7 @@ nav {
       font-size: 36px;
     }
     hr {
-      border: 2px solid black;
-      opacity: 1;
-      max-width: 56px;
-      border-radius: 5px;
-      margin-top: 26px;
+      @include custom-hr();
     }
     p {
       font-size: 18px;
@@ -158,18 +196,7 @@ nav {
   .btn-container {
     margin-top: 69px;
     .btn-outline-primary {
-      --bs-btn-color: #458ff6;
-      --bs-btn-border-color: #458ff6;
-      --bs-btn-hover-bg: #458ff6;
-      --bs-btn-hover-border-color: #458ff6;
-      --bs-btn-hover-color: #fff;
-      --bs-btn-active-bg: #307be6;
-      --bs-btn-active-border-color: #307be6;
-      --bs-btn-active-color: #fff;
-      --bs-btn-disabled-color: #458ff6;
-      --bs-btn-disabled-border-color: #458ff6;
-      font-size: 18px;
-      padding: 15px 50px;
+      @include outline-btn(15px, 50px, 18px);
     }
   }
 }
@@ -182,12 +209,7 @@ nav {
       font-size: 36px;
     }
     hr {
-      border: 2px solid black;
-      opacity: 1;
-      max-width: 56px;
-      width: 100%;
-      border-radius: 10px;
-      margin-top: 26px;
+      @include custom-hr();
     }
     p {
       font-size: 18px;
@@ -198,18 +220,7 @@ nav {
     .button-container {
       margin-top: 40px;
       .btn-outline-primary {
-        --bs-btn-color: #458ff6;
-        --bs-btn-border-color: #458ff6;
-        --bs-btn-hover-bg: #458ff6;
-        --bs-btn-hover-border-color: #458ff6;
-        --bs-btn-hover-color: #fff;
-        --bs-btn-active-bg: #307be6;
-        --bs-btn-active-border-color: #307be6;
-        --bs-btn-active-color: #fff;
-        --bs-btn-disabled-color: #458ff6;
-        --bs-btn-disabled-border-color: #458ff6;
-        font-size: 18px;
-        padding: 15px 50px;
+        @include outline-btn(15px, 50px, 18px);
       }
     }
   }
@@ -231,12 +242,7 @@ nav {
       font-size: 36px;
     }
     hr {
-      border: 2px solid black;
-      opacity: 1;
-      max-width: 56px;
-      width: 100%;
-      border-radius: 10px;
-      margin-top: 30px;
+      @include custom-hr(#000, 30px);
     }
     p {
       font-size: 18px;
@@ -244,19 +250,7 @@ nav {
       margin-top: 31px;
     }
     .btn-outline-primary {
-      --bs-btn-color: #458ff6;
-      --bs-btn-border-color: #458ff6;
-      --bs-btn-hover-bg: #458ff6;
-      --bs-btn-hover-border-color: #458ff6;
-      --bs-btn-hover-color: #fff;
-      --bs-btn-active-bg: #307be6;
-      --bs-btn-active-border-color: #307be6;
-      --bs-btn-active-color: #fff;
-      --bs-btn-disabled-color: #458ff6;
-      --bs-btn-disabled-border-color: #458ff6;
-
-      font-size: 18px;
-      padding: 15px 43px;
+      @include outline-btn(15px, 43px, 18px);
       margin-top: 40px;
 
       .icon-container {
@@ -297,12 +291,7 @@ nav {
         color: #fff;
       }
       hr {
-        border: 2px solid #fff;
-        opacity: 1;
-        max-width: 56px;
-        width: 100%;
-        border-radius: 10px;
-        margin-top: 26px;
+        @include custom-hr(#fff, 26px);
       }
       .slide-content {
         margin: 66px 118px 79px 118px;
@@ -378,11 +367,7 @@ nav {
     font-size: 36px;
   }
   hr {
-    border: 2px solid black;
-    opacity: 1;
-    max-width: 56px;
-    border-radius: 5px;
-    margin-top: 26px;
+    @include custom-hr();
   }
   .article-cards {
     margin-top: 79px;
@@ -446,19 +431,7 @@ nav {
   .btn-container {
     margin-top: 72px;
     .btn-outline-primary {
-      --bs-btn-color: #458ff6;
-      --bs-btn-border-color: #458ff6;
-      --bs-btn-hover-bg: #458ff6;
-      --bs-btn-hover-border-color: #458ff6;
-      --bs-btn-hover-color: #fff;
-      --bs-btn-active-bg: #307be6;
-      --bs-btn-active-border-color: #307be6;
-      --bs-btn-active-color: #fff;
-      --bs-btn-disabled-color: #458ff6;
-      --bs-btn-disabled-border-color: #458ff6;
-
-      font-size: 18px;
-      padding: 15px 68px;
+      @include outline-btn(15px, 68px, 18px);
     }
   }
 }
@@ -650,7 +623,6 @@ footer {
     scroll-margin-top: 100px;
     margin: 100px 100px 0 100px;
     .custom-slider {
-      // max-width: 952px;
       .testimonial-card {
         h4 {
           font-size: 32px;
@@ -938,7 +910,8 @@ footer {
     }
     .btn-container {
       .btn-outline-primary {
-        padding: 11px 49px;
+        font-size: 16px;
+        padding: 12px 53px;
       }
     }
   }
